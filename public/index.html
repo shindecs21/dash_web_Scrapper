@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Zingoy Gift Cards — POC</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: system-ui, sans-serif;
+        line-height: 1.4;
+      }
+      body {
+        margin: 0;
+        background: #f6f7fb;
+        color: #1b1f24;
+      }
+      header {
+        background: #fff;
+        border-bottom: 1px solid #e5e8ef;
+        padding: 16px 20px;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+      }
+      main {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .meta {
+        color: #5b6472;
+        font-size: 14px;
+        margin-top: 4px;
+      }
+      .panel {
+        background: #fff;
+        border: 1px solid #e5e8ef;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+      }
+      th,
+      td {
+        padding: 10px 12px;
+        border-bottom: 1px solid #eef1f6;
+        text-align: left;
+        vertical-align: middle;
+      }
+      th {
+        background: #fafbfd;
+        font-weight: 600;
+      }
+      th.expand-col,
+      td.expand-col {
+        width: 40px;
+        text-align: center;
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+      .store-name {
+        font-weight: 700;
+      }
+      .store-name a {
+        color: inherit;
+        text-decoration: none;
+      }
+      .store-name a:hover {
+        color: #2457d6;
+      }
+      .store-rank {
+        color: #5b6472;
+        font-weight: 500;
+        margin-right: 6px;
+      }
+      td a.value-link {
+        color: #2457d6;
+        text-decoration: none;
+      }
+      td a.value-link:hover {
+        text-decoration: underline;
+      }
+      tr.store-row {
+        background: #fff;
+      }
+      tr.store-row:hover {
+        background: #fafbfd;
+      }
+      tr.detail-row {
+        background: #f8f9fc;
+        display: none;
+      }
+      tr.detail-row.open {
+        display: table-row;
+      }
+      tr.detail-row td:first-child {
+        padding-left: 28px;
+        color: #5b6472;
+        font-size: 13px;
+      }
+      .expand-btn {
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        color: #5b6472;
+        font-size: 12px;
+        line-height: 1;
+        padding: 4px;
+        border-radius: 4px;
+      }
+      .expand-btn:hover {
+        background: #eef1f6;
+        color: #1b1f24;
+      }
+      .expand-btn:disabled {
+        opacity: 0.3;
+        cursor: default;
+      }
+      .empty-note {
+        color: #5b6472;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <strong>Zingoy Gift Cards POC</strong>
+      <div class="meta" id="meta">Loading…</div>
+    </header>
+    <main id="app"></main>
+    <script>
+      const app = document.getElementById('app');
+      const meta = document.getElementById('meta');
+
+      function fmtMoney(n) {
+        if (n == null) return '—';
+        return '₹' + Number(n).toLocaleString('en-IN');
+      }
+
+      function renderVoucherCell(voucher, productUrl) {
+        if (!voucher?.faceValue) return '<span class="empty-note">—</span>';
+        return `<a class="value-link" href="${productUrl}" target="_blank" rel="noreferrer">${voucher.faceValue}</a>`;
+      }
+
+      function renderStoreRows(store) {
+        const slug = store.slug;
+        const productUrl = store.productUrl || store.url;
+        const rank = store.listingRank ? `<span class="store-rank">#${store.listingRank}</span>` : '';
+        const vouchers = store.vouchers ?? [];
+        const top = vouchers[0];
+        const rest = vouchers.slice(1);
+        const canExpand = rest.length > 0;
+        const cashback =
+          top?.cashback ??
+          (store.earnUptoCashback
+            ? `<span title="${store.earnUptoText ?? ''}">${store.earnUptoCashback}</span>`
+            : '<span class="empty-note">—</span>');
+
+        let html = `<tr class="store-row" data-store="${slug}">
+          <td class="store-name">${rank}<a href="${store.url}" target="_blank" rel="noreferrer">${store.name}</a></td>
+          <td>${renderVoucherCell(top, productUrl)}</td>
+          <td>${cashback}</td>
+          <td class="expand-col">
+            <button class="expand-btn" type="button" data-store="${slug}" aria-label="Expand vouchers" ${canExpand ? '' : 'disabled'}>${canExpand ? '▶' : '·'}</button>
+          </td>
+        </tr>`;
+
+        for (const v of rest) {
+          html += `<tr class="detail-row" data-store="${slug}" data-detail="1">
+            <td></td>
+            <td>${renderVoucherCell(v, productUrl)}</td>
+            <td>${v.cashback ?? '—'}</td>
+            <td class="expand-col"></td>
+          </tr>`;
+        }
+
+        return html;
+      }
+
+      function renderTable(stores) {
+        const rows = stores.map(renderStoreRows).join('');
+        return `<div class="panel">
+          <table>
+            <thead>
+              <tr>
+                <th>Store</th>
+                <th>Value</th>
+                <th>Cashback</th>
+                <th class="expand-col"></th>
+              </tr>
+            </thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>`;
+      }
+
+      app.addEventListener('click', (event) => {
+        const btn = event.target.closest('.expand-btn');
+        if (!btn || btn.disabled) return;
+
+        const slug = btn.dataset.store;
+        const detailRows = app.querySelectorAll(`tr.detail-row[data-store="${slug}"]`);
+        const isOpen = btn.textContent === '▼';
+
+        detailRows.forEach((row) => row.classList.toggle('open', !isOpen));
+        btn.textContent = isOpen ? '▶' : '▼';
+      });
+
+      fetch('./data/zingoy.json')
+        .then((r) => {
+          if (!r.ok) throw new Error('Missing data/zingoy.json — run npm run scrape first');
+          return r.json();
+        })
+        .then((data) => {
+          const t = data.timing;
+          const timing = t
+            ? ` · ${t.totalSec}s total (${t.listingSec}s listing + ${t.scrapeSec}s scrape, ~${t.avgSecPerStore}s/store)`
+            : '';
+          meta.textContent = `${data.storeCount} stores · ${data.listingPageCount ?? 1} listing pages · cashback sorted · scraped ${new Date(data.scrapedAt).toLocaleString()}${timing}`;
+          app.innerHTML = renderTable(data.stores);
+        })
+        .catch((err) => {
+          meta.textContent = err.message;
+          app.innerHTML = '<p>Run <code>npm run scrape</code> locally, then open this page via a static server.</p>';
+        });
+    </script>
+  </body>
+</html>

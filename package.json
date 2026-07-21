@@ -1,0 +1,13 @@
+{
+  "name": "dash-web-scrapper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scrape": "node scrapers/zingoy.mjs --limit-stores 48 --limit-vouchers 6 --listing-pages 4 --concurrency 6",
+    "scrape:quick": "node scrapers/zingoy.mjs --limit-stores 3 --limit-vouchers 6"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0"
+  }
+}
