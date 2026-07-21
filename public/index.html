@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Zingoy Gift Cards — POC</title>
+    <title>Morning Brief — Dashboard</title>
     <style>
       :root {
         color-scheme: light;
@@ -21,23 +21,54 @@
         padding: 16px 20px;
         position: sticky;
         top: 0;
-        z-index: 1;
+        z-index: 2;
       }
-      main {
-        max-width: 1100px;
-        margin: 0 auto;
-        padding: 20px;
+      header h1 {
+        margin: 0;
+        font-size: 20px;
       }
       .meta {
         color: #5b6472;
         font-size: 14px;
         margin-top: 4px;
       }
+      .tabs {
+        display: flex;
+        gap: 8px;
+        margin-top: 12px;
+      }
+      .tab {
+        border: 1px solid #e5e8ef;
+        background: #fafbfd;
+        color: #1b1f24;
+        padding: 8px 14px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 600;
+      }
+      .tab.active {
+        background: #2457d6;
+        border-color: #2457d6;
+        color: #fff;
+      }
+      main {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 20px;
+      }
       .panel {
         background: #fff;
         border: 1px solid #e5e8ef;
         border-radius: 10px;
         overflow: hidden;
+        margin-bottom: 16px;
+      }
+      .panel-title {
+        padding: 12px 16px;
+        font-weight: 600;
+        border-bottom: 1px solid #eef1f6;
+        background: #fafbfd;
       }
       table {
         width: 100%;
@@ -62,16 +93,41 @@
         padding-left: 8px;
         padding-right: 8px;
       }
-      .store-name {
+      .index-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 12px;
+        padding: 16px;
+      }
+      .index-card {
+        border: 1px solid #eef1f6;
+        border-radius: 10px;
+        padding: 14px;
+        background: #fafbfd;
+      }
+      .index-card .label {
+        font-size: 13px;
+        color: #5b6472;
+        margin-bottom: 6px;
+      }
+      .index-card .price {
+        font-size: 22px;
         font-weight: 700;
       }
+      .index-card .change {
+        font-size: 14px;
+        margin-top: 4px;
+        font-weight: 600;
+      }
+      .up { color: #0d7a43; }
+      .down { color: #b42318; }
+      .flat { color: #5b6472; }
+      .store-name { font-weight: 700; }
       .store-name a {
         color: inherit;
         text-decoration: none;
       }
-      .store-name a:hover {
-        color: #2457d6;
-      }
+      .store-name a:hover { color: #2457d6; }
       .store-rank {
         color: #5b6472;
         font-weight: 500;
@@ -81,22 +137,14 @@
         color: #2457d6;
         text-decoration: none;
       }
-      td a.value-link:hover {
-        text-decoration: underline;
-      }
-      tr.store-row {
-        background: #fff;
-      }
-      tr.store-row:hover {
-        background: #fafbfd;
-      }
+      td a.value-link:hover { text-decoration: underline; }
+      tr.store-row { background: #fff; }
+      tr.store-row:hover { background: #fafbfd; }
       tr.detail-row {
         background: #f8f9fc;
         display: none;
       }
-      tr.detail-row.open {
-        display: table-row;
-      }
+      tr.detail-row.open { display: table-row; }
       tr.detail-row td:first-child {
         padding-left: 28px;
         color: #5b6472;
@@ -108,7 +156,6 @@
         cursor: pointer;
         color: #5b6472;
         font-size: 12px;
-        line-height: 1;
         padding: 4px;
         border-radius: 4px;
       }
@@ -124,21 +171,46 @@
         color: #5b6472;
         font-style: italic;
       }
+      .hidden { display: none; }
+      .num { font-variant-numeric: tabular-nums; }
     </style>
   </head>
   <body>
     <header>
-      <strong>Zingoy Gift Cards POC</strong>
+      <h1>Morning Brief</h1>
       <div class="meta" id="meta">Loading…</div>
+      <nav class="tabs" id="tabs">
+        <button type="button" class="tab active" data-tab="deals">Gift Cards</button>
+        <button type="button" class="tab" data-tab="markets">Markets</button>
+      </nav>
     </header>
-    <main id="app"></main>
+    <main>
+      <div id="deals-panel"></div>
+      <div id="markets-panel" class="hidden"></div>
+    </main>
     <script>
-      const app = document.getElementById('app');
       const meta = document.getElementById('meta');
+      const dealsPanel = document.getElementById('deals-panel');
+      const marketsPanel = document.getElementById('markets-panel');
+      const tabs = document.getElementById('tabs');
 
-      function fmtMoney(n) {
+      let zingoyData = null;
+      let marketsData = null;
+      let activeTab = 'deals';
+
+      function fmtMoney(n, currency = 'INR') {
         if (n == null) return '—';
-        return '₹' + Number(n).toLocaleString('en-IN');
+        if (currency === 'INR') return '₹' + Number(n).toLocaleString('en-IN', { maximumFractionDigits: 2 });
+        return Number(n).toLocaleString(undefined, { maximumFractionDigits: 4 });
+      }
+
+      function fmtChange(n, pct) {
+        if (n == null && pct == null) return '—';
+        const sign = n > 0 ? '+' : '';
+        const cls = n > 0 ? 'up' : n < 0 ? 'down' : 'flat';
+        const abs = n == null ? '' : `${sign}${Number(n).toFixed(2)}`;
+        const p = pct == null ? '' : ` (${sign}${Number(pct).toFixed(2)}%)`;
+        return `<span class="${cls} num">${abs}${p}</span>`;
       }
 
       function renderVoucherCell(voucher, productUrl) {
@@ -177,13 +249,16 @@
             <td class="expand-col"></td>
           </tr>`;
         }
-
         return html;
       }
 
-      function renderTable(stores) {
-        const rows = stores.map(renderStoreRows).join('');
-        return `<div class="panel">
+      function renderDeals() {
+        if (!zingoyData) {
+          dealsPanel.innerHTML = '<p class="empty-note">Gift card data not loaded.</p>';
+          return;
+        }
+        const rows = zingoyData.stores.map(renderStoreRows).join('');
+        dealsPanel.innerHTML = `<div class="panel">
           <table>
             <thead>
               <tr>
@@ -198,34 +273,107 @@
         </div>`;
       }
 
-      app.addEventListener('click', (event) => {
+      function renderMarkets() {
+        if (!marketsData) {
+          marketsPanel.innerHTML = '<p class="empty-note">Markets data not loaded. Run <code>npm run fetch:markets</code>.</p>';
+          return;
+        }
+
+        const indexCards = marketsData.indices
+          .map((item) => {
+            const isFx = item.symbol === 'INR=X';
+            const price = isFx ? fmtMoney(item.price, 'INR') : fmtMoney(item.price, 'INR');
+            return `<div class="index-card">
+              <div class="label">${item.label}</div>
+              <div class="price num">${price}</div>
+              <div class="change">${fmtChange(item.change, item.changePercent)}</div>
+            </div>`;
+          })
+          .join('');
+
+        const watchRows = marketsData.watchlist
+          .map(
+            (s) => `<tr>
+              <td><strong>${s.label}</strong><br><span class="empty-note">${s.symbol}</span></td>
+              <td class="num">${fmtMoney(s.price)}</td>
+              <td class="num">${fmtChange(s.change, s.changePercent)}</td>
+            </tr>`,
+          )
+          .join('');
+
+        marketsPanel.innerHTML = `
+          <div class="panel">
+            <div class="panel-title">Indices &amp; FX</div>
+            <div class="index-grid">${indexCards}</div>
+          </div>
+          <div class="panel">
+            <div class="panel-title">Watchlist</div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Stock</th>
+                  <th>Price</th>
+                  <th>Change</th>
+                </tr>
+              </thead>
+              <tbody>${watchRows}</tbody>
+            </table>
+          </div>`;
+      }
+
+      function updateMeta() {
+        const parts = [];
+        if (zingoyData) {
+          parts.push(`${zingoyData.storeCount} gift-card stores · ${new Date(zingoyData.scrapedAt).toLocaleString()}`);
+        }
+        if (marketsData) {
+          parts.push(`Markets · ${new Date(marketsData.scrapedAt).toLocaleString()}`);
+        }
+        meta.textContent = parts.join(' · ') || 'No data loaded';
+      }
+
+      function setTab(tab) {
+        activeTab = tab;
+        tabs.querySelectorAll('.tab').forEach((btn) => {
+          btn.classList.toggle('active', btn.dataset.tab === tab);
+        });
+        dealsPanel.classList.toggle('hidden', tab !== 'deals');
+        marketsPanel.classList.toggle('hidden', tab !== 'markets');
+      }
+
+      tabs.addEventListener('click', (event) => {
+        const btn = event.target.closest('.tab');
+        if (!btn) return;
+        setTab(btn.dataset.tab);
+      });
+
+      document.body.addEventListener('click', (event) => {
         const btn = event.target.closest('.expand-btn');
         if (!btn || btn.disabled) return;
-
         const slug = btn.dataset.store;
-        const detailRows = app.querySelectorAll(`tr.detail-row[data-store="${slug}"]`);
+        const detailRows = dealsPanel.querySelectorAll(`tr.detail-row[data-store="${slug}"]`);
         const isOpen = btn.textContent === '▼';
-
         detailRows.forEach((row) => row.classList.toggle('open', !isOpen));
         btn.textContent = isOpen ? '▶' : '▼';
       });
 
-      fetch('./data/zingoy.json')
-        .then((r) => {
-          if (!r.ok) throw new Error('Missing data/zingoy.json — run npm run scrape first');
-          return r.json();
-        })
-        .then((data) => {
-          const t = data.timing;
-          const timing = t
-            ? ` · ${t.totalSec}s total (${t.listingSec}s listing + ${t.scrapeSec}s scrape, ~${t.avgSecPerStore}s/store)`
-            : '';
-          meta.textContent = `${data.storeCount} stores · ${data.listingPageCount ?? 1} listing pages · cashback sorted · scraped ${new Date(data.scrapedAt).toLocaleString()}${timing}`;
-          app.innerHTML = renderTable(data.stores);
+      Promise.all([
+        fetch('./data/zingoy.json').then((r) => (r.ok ? r.json() : null)),
+        fetch('./data/markets.json').then((r) => (r.ok ? r.json() : null)),
+      ])
+        .then(([zingoy, markets]) => {
+          zingoyData = zingoy;
+          marketsData = markets;
+          renderDeals();
+          renderMarkets();
+          updateMeta();
+          if (!zingoy && !markets) {
+            throw new Error('No data files found');
+          }
         })
         .catch((err) => {
           meta.textContent = err.message;
-          app.innerHTML = '<p>Run <code>npm run scrape</code> locally, then open this page via a static server.</p>';
+          dealsPanel.innerHTML = '<p>Run <code>npm run scrape</code> and <code>npm run fetch:markets</code>.</p>';
         });
     </script>
   </body>

@@ -24,15 +24,16 @@ Personal dashboard that scrapes deal sites on a schedule, stores JSON in GitHub,
 
 ---
 
-## Phase 2 — GitHub polish
+## Phase 2 — Markets tab (in progress)
 
-| Item | Notes |
+| Item | Status |
 |------|--------|
-| Enable GitHub Pages (Source: GitHub Actions) | One-time repo setting |
-| Verify first workflow run on `main` | Actions tab → Run workflow |
-| README badges (workflow status, Pages URL) | Optional |
-| Split workflow: scrape job + deploy job | If commit/push needs separate permissions |
-| Workflow status in dashboard header | “Last updated …” from JSON `scrapedAt` |
+| Nifty, Sensex, Bank Nifty, USD/INR | Done |
+| 5-stock watchlist (config file) | Done |
+| Dashboard tab UI | Done |
+| GitHub Actions fetch step | Done |
+
+Watchlist config: `config/markets-watchlist.json` — edit symbols (`.NS` suffix for NSE).
 
 ---
 

@@ -1,0 +1,90 @@
+{
+  "source": "yahoo-finance",
+  "scrapedAt": "2026-07-21T17:53:18.744Z",
+  "marketState": "regular",
+  "indices": [
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "symbol": "^NSEI",
+      "price": 24187.7,
+      "change": -50.79999999999927,
+      "changePercent": -0.20958392639808268,
+      "currency": "INR"
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "symbol": "^BSESN",
+      "price": 77470.11,
+      "change": -238.4100000000035,
+      "changePercent": -0.3068003354072417,
+      "currency": "INR"
+    },
+    {
+      "id": "bankNifty",
+      "label": "Bank Nifty",
+      "symbol": "^NSEBANK",
+      "price": 57835.35,
+      "change": -109.65000000000146,
+      "changePercent": -0.18923116748641203,
+      "currency": "INR"
+    },
+    {
+      "id": "usdInr",
+      "label": "USD/INR",
+      "symbol": "INR=X",
+      "price": 96.225,
+      "change": -0.21000000000000796,
+      "changePercent": -0.2177632602271042,
+      "currency": "INR"
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "RELIANCE.NS",
+      "label": "Reliance",
+      "symbol": "RELIANCE.NS",
+      "price": 1303.7,
+      "change": -19.399999999999864,
+      "changePercent": -1.4662534955785553,
+      "currency": "INR"
+    },
+    {
+      "id": "TCS.NS",
+      "label": "TCS",
+      "symbol": "TCS.NS",
+      "price": 2221.1,
+      "change": -30,
+      "changePercent": -1.3326818000088847,
+      "currency": "INR"
+    },
+    {
+      "id": "INFY.NS",
+      "label": "Infosys",
+      "symbol": "INFY.NS",
+      "price": 1073.5,
+      "change": -13.599999999999909,
+      "changePercent": -1.2510348633980233,
+      "currency": "INR"
+    },
+    {
+      "id": "HDFCBANK.NS",
+      "label": "HDFC Bank",
+      "symbol": "HDFCBANK.NS",
+      "price": 761.45,
+      "change": -16.149999999999977,
+      "changePercent": -2.076903292181067,
+      "currency": "INR"
+    },
+    {
+      "id": "ICICIBANK.NS",
+      "label": "ICICI Bank",
+      "symbol": "ICICIBANK.NS",
+      "price": 1463.1,
+      "change": 2.8999999999998636,
+      "changePercent": 0.19860293110531868,
+      "currency": "INR"
+    }
+  ]
+}

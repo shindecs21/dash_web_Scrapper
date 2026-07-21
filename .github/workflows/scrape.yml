@@ -1,4 +1,4 @@
-name: Scrape Zingoy gift cards
+name: Scrape dashboard data
 
 on:
   schedule:
@@ -60,7 +60,10 @@ jobs:
       - name: Install Playwright Chromium
         run: npx playwright install chromium --with-deps
 
-      - name: Run scraper
+      - name: Fetch markets data
+        run: node scrapers/markets.mjs
+
+      - name: Run Zingoy scraper
         run: |
           node scrapers/zingoy.mjs \
             --limit-stores "${{ github.event.inputs.limit_stores || '48' }}" \
@@ -72,8 +75,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/zingoy.json public/data/zingoy.json
-          git diff --staged --quiet || git commit -m "chore: update zingoy scrape [skip ci]"
+          git add data/zingoy.json data/markets.json public/data/zingoy.json public/data/markets.json
+          git diff --staged --quiet || git commit -m "chore: update dashboard data [skip ci]"
           git push
 
       - name: Configure GitHub Pages

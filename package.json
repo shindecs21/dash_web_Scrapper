@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "scrape": "node scrapers/zingoy.mjs --limit-stores 48 --limit-vouchers 6 --listing-pages 4 --concurrency 6",
-    "scrape:quick": "node scrapers/zingoy.mjs --limit-stores 3 --limit-vouchers 6"
+    "scrape:quick": "node scrapers/zingoy.mjs --limit-stores 3 --limit-vouchers 6",
+    "fetch:markets": "node scrapers/markets.mjs",
+    "fetch:all": "npm run fetch:markets && npm run scrape"
   },
   "dependencies": {
     "playwright": "^1.52.0"
