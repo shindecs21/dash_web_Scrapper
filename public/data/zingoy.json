@@ -11,15 +11,15 @@
   "voucherSort": "discount",
   "storeQuery": "price_min=100&price_max=5000&sort_by=discount",
   "concurrency": 6,
-  "scrapedAt": "2026-08-17T02:38:20.995Z",
-  "finishedAt": "2026-08-17T02:39:43.297Z",
+  "scrapedAt": "2026-08-18T02:33:19.653Z",
+  "finishedAt": "2026-08-18T02:34:32.184Z",
   "timing": {
-    "listingMs": 20489,
-    "scrapeMs": 34080,
-    "totalMs": 81853,
-    "listingSec": 20,
-    "scrapeSec": 34,
-    "totalSec": 82,
+    "listingMs": 17385,
+    "scrapeMs": 34843,
+    "totalMs": 72143,
+    "listingSec": 17,
+    "scrapeSec": 35,
+    "totalSec": 72,
     "avgSecPerStore": 1
   },
   "storeCount": 48,
@@ -41,7 +41,7 @@
           "cashback": "90%",
           "cashbackPercent": 90,
           "effectivePrice": 50,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -71,7 +71,7 @@
           "cashback": "88%",
           "cashbackPercent": 88,
           "effectivePrice": 60,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -81,7 +81,7 @@
           "cashback": "88%",
           "cashbackPercent": 88,
           "effectivePrice": 60,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -104,7 +104,7 @@
       "name": "Surat Diamond Gift Card",
       "url": "https://www.zingoy.com/gift-cards/surat-diamond-jewellery",
       "listingPage": 1,
-      "listingCashback": "85%",
+      "listingCashback": "70%",
       "listingRank": 2,
       "productUrl": "https://www.zingoy.com/gift-cards/surat-diamond-jewellery?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 6,
@@ -113,73 +113,73 @@
           "rank": 1,
           "faceValue": "₹4000.0",
           "type": "Online",
-          "cashback": "85%",
-          "cashbackPercent": 85,
-          "effectivePrice": 599,
-          "validity": "Aug 27, 2026",
+          "cashback": "70%",
+          "cashbackPercent": 70,
+          "effectivePrice": 1200,
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
           "rank": 2,
           "faceValue": "₹4000.0",
           "type": "Online",
-          "cashback": "80%",
-          "cashbackPercent": 80,
-          "effectivePrice": 799,
-          "validity": "Aug 27, 2026",
+          "cashback": "62.5%",
+          "cashbackPercent": 62.5,
+          "effectivePrice": 1500,
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
           "rank": 3,
           "faceValue": "₹4000.0",
           "type": "Online",
-          "cashback": "75%",
-          "cashbackPercent": 75,
-          "effectivePrice": 1000,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "0"
+          "cashback": "51.25%",
+          "cashbackPercent": 51.25,
+          "effectivePrice": 1950,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "5"
         },
         {
           "rank": 4,
           "faceValue": "₹4000.0",
           "type": "Online",
-          "cashback": "62.5%",
-          "cashbackPercent": 62.5,
-          "effectivePrice": 1500,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "0"
+          "cashback": "37.75%",
+          "cashbackPercent": 37.75,
+          "effectivePrice": 2490,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "5"
         },
         {
           "rank": 5,
           "faceValue": "₹4000.0",
           "type": "Online",
-          "cashback": "55%",
-          "cashbackPercent": 55,
-          "effectivePrice": 1800,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "5"
+          "cashback": "37.5%",
+          "cashbackPercent": 37.5,
+          "effectivePrice": 2500,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "0"
         },
         {
           "rank": 6,
           "faceValue": "₹4000.0",
           "type": "Online",
-          "cashback": "37.75%",
-          "cashbackPercent": 37.75,
-          "effectivePrice": 2490,
-          "validity": "Aug 27, 2026",
+          "cashback": "20%",
+          "cashbackPercent": 20,
+          "effectivePrice": 3200,
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         }
       ],
       "pageTitle": "Surat Diamond Gift Card & Vouchers",
-      "earnUptoCashback": "85%",
-      "earnUptoText": "Earn upto 85% Cashback"
+      "earnUptoCashback": "70%",
+      "earnUptoText": "Earn upto 70% Cashback"
     },
     {
       "slug": "lakme",
       "name": "Lakme Gift Card",
       "url": "https://www.zingoy.com/gift-cards/lakme",
       "listingPage": 1,
-      "listingCashback": "64%",
+      "listingCashback": "61.33%",
       "listingRank": 3,
       "productUrl": "https://www.zingoy.com/gift-cards/lakme?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 6,
@@ -188,66 +188,66 @@
           "rank": 1,
           "faceValue": "₹1500.0",
           "type": "Offline",
-          "cashback": "64%",
-          "cashbackPercent": 64,
-          "effectivePrice": 540,
-          "validity": "Aug 27, 2026",
+          "cashback": "61.33%",
+          "cashbackPercent": 61.33,
+          "effectivePrice": 580,
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
           "rank": 2,
           "faceValue": "₹1500.0",
           "type": "Offline",
-          "cashback": "62.67%",
-          "cashbackPercent": 62.67,
-          "effectivePrice": 560,
-          "validity": "Aug 27, 2026",
+          "cashback": "60.67%",
+          "cashbackPercent": 60.67,
+          "effectivePrice": 590,
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
           "rank": 3,
           "faceValue": "₹1500.0",
           "type": "Offline",
-          "cashback": "61%",
-          "cashbackPercent": 61,
-          "effectivePrice": 585,
-          "validity": "Aug 27, 2026",
+          "cashback": "60.53%",
+          "cashbackPercent": 60.53,
+          "effectivePrice": 592,
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
           "rank": 4,
           "faceValue": "₹1500.0",
           "type": "Offline",
-          "cashback": "60.67%",
-          "cashbackPercent": 60.67,
-          "effectivePrice": 590,
-          "validity": "Aug 27, 2026",
+          "cashback": "60.47%",
+          "cashbackPercent": 60.47,
+          "effectivePrice": 593,
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
           "rank": 5,
           "faceValue": "₹1500.0",
           "type": "Offline",
-          "cashback": "60.47%",
-          "cashbackPercent": 60.47,
-          "effectivePrice": 593,
-          "validity": "Aug 27, 2026",
+          "cashback": "60.4%",
+          "cashbackPercent": 60.4,
+          "effectivePrice": 594,
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
           "rank": 6,
           "faceValue": "₹1500.0",
-          "type": "Offline",
-          "cashback": "60.4%",
-          "cashbackPercent": 60.4,
-          "effectivePrice": 594,
-          "validity": "Aug 27, 2026",
+          "type": "Online",
+          "cashback": "60.33%",
+          "cashbackPercent": 60.33,
+          "effectivePrice": 595,
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         }
       ],
       "pageTitle": "Lakme Gift Card & Vouchers",
-      "earnUptoCashback": "64%",
-      "earnUptoText": "Earn upto 64% Cashback"
+      "earnUptoCashback": "61.33%",
+      "earnUptoText": "Earn upto 61.33% Cashback"
     },
     {
       "slug": "puma",
@@ -266,27 +266,27 @@
           "cashback": "55%",
           "cashbackPercent": 55,
           "effectivePrice": 225,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
           "rank": 2,
           "faceValue": "₹1000.0",
-          "type": "Both",
-          "cashback": "30%",
-          "cashbackPercent": 30,
-          "effectivePrice": 700,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "5"
+          "type": "Offline",
+          "cashback": "20%",
+          "cashbackPercent": 20,
+          "effectivePrice": 800,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "0"
         },
         {
           "rank": 3,
           "faceValue": "₹1000.0",
           "type": "Offline",
-          "cashback": "20%",
-          "cashbackPercent": 20,
-          "effectivePrice": 800,
-          "validity": "Aug 27, 2026",
+          "cashback": "10%",
+          "cashbackPercent": 10,
+          "effectivePrice": 900,
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -296,7 +296,7 @@
           "cashback": "10%",
           "cashbackPercent": 10,
           "effectivePrice": 900,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -306,17 +306,17 @@
           "cashback": "10%",
           "cashbackPercent": 10,
           "effectivePrice": 900,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
           "rank": 6,
-          "faceValue": "₹1000.0",
+          "faceValue": "₹1100.0",
           "type": "Offline",
-          "cashback": "10%",
-          "cashbackPercent": 10,
-          "effectivePrice": 900,
-          "validity": "Aug 27, 2026",
+          "cashback": "9.27%",
+          "cashbackPercent": 9.27,
+          "effectivePrice": 998,
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         }
       ],
@@ -325,57 +325,12 @@
       "earnUptoText": "Earn upto 55% Cashback"
     },
     {
-      "slug": "archies-online",
-      "name": "Archies Gift Card",
-      "url": "https://www.zingoy.com/gift-cards/archies-online",
-      "listingPage": 1,
-      "listingCashback": "55%",
-      "listingRank": 5,
-      "productUrl": "https://www.zingoy.com/gift-cards/archies-online?price_min=100&price_max=5000&sort_by=discount",
-      "voucherCount": 3,
-      "vouchers": [
-        {
-          "rank": 1,
-          "faceValue": "₹100.0",
-          "type": "Online",
-          "cashback": "55%",
-          "cashbackPercent": 55,
-          "effectivePrice": 45,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "5"
-        },
-        {
-          "rank": 2,
-          "faceValue": "₹1000.0",
-          "type": "Online",
-          "cashback": "30%",
-          "cashbackPercent": 30,
-          "effectivePrice": 700,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "0"
-        },
-        {
-          "rank": 3,
-          "faceValue": "₹1000.0",
-          "type": "Online",
-          "cashback": "15%",
-          "cashbackPercent": 15,
-          "effectivePrice": 850,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "5"
-        }
-      ],
-      "pageTitle": "Archies Gift Cards & eGift Vouchers",
-      "earnUptoCashback": "55%",
-      "earnUptoText": "Earn upto 55% Cashback"
-    },
-    {
       "slug": "dominos",
       "name": "Dominos Gift Card",
       "url": "https://www.zingoy.com/gift-cards/dominos",
       "listingPage": 1,
-      "listingCashback": "40%",
-      "listingRank": 6,
+      "listingCashback": "44.95%",
+      "listingRank": 5,
       "productUrl": "https://www.zingoy.com/gift-cards/dominos?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 6,
       "vouchers": [
@@ -386,138 +341,213 @@
           "cashback": "40%",
           "cashbackPercent": 40,
           "effectivePrice": 60,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
           "rank": 2,
           "faceValue": "₹100.0",
           "type": "Online",
-          "cashback": "40%",
-          "cashbackPercent": 40,
-          "effectivePrice": 60,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "0"
+          "cashback": "35%",
+          "cashbackPercent": 35,
+          "effectivePrice": 65,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "5"
         },
         {
           "rank": 3,
           "faceValue": "₹100.0",
-          "type": "Online",
-          "cashback": "35%",
-          "cashbackPercent": 35,
-          "effectivePrice": 65,
-          "validity": "Aug 27, 2026",
+          "type": "Both",
+          "cashback": "33%",
+          "cashbackPercent": 33,
+          "effectivePrice": 67,
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
           "rank": 4,
           "faceValue": "₹100.0",
           "type": "Online",
-          "cashback": "33%",
-          "cashbackPercent": 33,
-          "effectivePrice": 67,
-          "validity": "Aug 27, 2026",
+          "cashback": "32%",
+          "cashbackPercent": 32,
+          "effectivePrice": 68,
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
           "rank": 5,
           "faceValue": "₹100.0",
-          "type": "Both",
-          "cashback": "33%",
-          "cashbackPercent": 33,
-          "effectivePrice": 67,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "5"
+          "type": "Online",
+          "cashback": "30%",
+          "cashbackPercent": 30,
+          "effectivePrice": 70,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "0"
         },
         {
           "rank": 6,
           "faceValue": "₹100.0",
-          "type": "Both",
-          "cashback": "33%",
-          "cashbackPercent": 33,
-          "effectivePrice": 67,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "5"
+          "type": "Online",
+          "cashback": "30%",
+          "cashbackPercent": 30,
+          "effectivePrice": 70,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "0"
         }
       ],
       "pageTitle": "Dominos Gift Card & Vouchers",
-      "earnUptoCashback": "40%",
-      "earnUptoText": "Earn upto 40% Cashback"
+      "earnUptoCashback": "44.95%",
+      "earnUptoText": "Earn upto 44.95% Cashback"
     },
     {
       "slug": "pizza-hut",
       "name": "Pizza Hut Gift Card",
       "url": "https://www.zingoy.com/gift-cards/pizza-hut",
       "listingPage": 1,
-      "listingCashback": "40%",
-      "listingRank": 7,
+      "listingCashback": "42%",
+      "listingRank": 6,
       "productUrl": "https://www.zingoy.com/gift-cards/pizza-hut?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 6,
       "vouchers": [
         {
           "rank": 1,
-          "faceValue": "₹100.0",
+          "faceValue": "₹500.0",
           "type": "Online",
-          "cashback": "40%",
-          "cashbackPercent": 40,
-          "effectivePrice": 60,
-          "validity": "Aug 27, 2026",
+          "cashback": "42%",
+          "cashbackPercent": 42,
+          "effectivePrice": 290,
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
           "rank": 2,
           "faceValue": "₹100.0",
           "type": "Online",
-          "cashback": "28%",
-          "cashbackPercent": 28,
-          "effectivePrice": 72,
-          "validity": "Aug 27, 2026",
+          "cashback": "40%",
+          "cashbackPercent": 40,
+          "effectivePrice": 60,
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
           "rank": 3,
-          "faceValue": "₹500.0",
-          "type": "Both",
-          "cashback": "25%",
-          "cashbackPercent": 25,
-          "effectivePrice": 374,
-          "validity": "Aug 27, 2026",
+          "faceValue": "₹100.0",
+          "type": "Online",
+          "cashback": "28%",
+          "cashbackPercent": 28,
+          "effectivePrice": 72,
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
           "rank": 4,
           "faceValue": "₹500.0",
           "type": "Both",
-          "cashback": "24%",
-          "cashbackPercent": 24,
-          "effectivePrice": 380,
-          "validity": "Aug 27, 2026",
+          "cashback": "27%",
+          "cashbackPercent": 27,
+          "effectivePrice": 365,
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
           "rank": 5,
           "faceValue": "₹500.0",
           "type": "Both",
-          "cashback": "24%",
-          "cashbackPercent": 24,
-          "effectivePrice": 380,
-          "validity": "Aug 27, 2026",
+          "cashback": "25.2%",
+          "cashbackPercent": 25.2,
+          "effectivePrice": 374,
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
           "rank": 6,
-          "faceValue": "₹500.0",
-          "type": "Both",
-          "cashback": "24%",
-          "cashbackPercent": 24,
-          "effectivePrice": 380,
-          "validity": "Aug 27, 2026",
+          "faceValue": "₹200.0",
+          "type": "Online",
+          "cashback": "25%",
+          "cashbackPercent": 25,
+          "effectivePrice": 150,
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         }
       ],
       "pageTitle": "Pizza Hut Gift Card & Vouchers",
-      "earnUptoCashback": "40%",
-      "earnUptoText": "Earn upto 40% Cashback"
+      "earnUptoCashback": "42%",
+      "earnUptoText": "Earn upto 42% Cashback"
+    },
+    {
+      "slug": "peter-england",
+      "name": "Peter England Gift Card",
+      "url": "https://www.zingoy.com/gift-cards/peter-england",
+      "listingPage": 1,
+      "listingCashback": "35.71%",
+      "listingRank": 7,
+      "productUrl": "https://www.zingoy.com/gift-cards/peter-england?price_min=100&price_max=5000&sort_by=discount",
+      "voucherCount": 6,
+      "vouchers": [
+        {
+          "rank": 1,
+          "faceValue": "₹1400.0",
+          "type": "Offline",
+          "cashback": "35.71%",
+          "cashbackPercent": 35.71,
+          "effectivePrice": 900,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "0"
+        },
+        {
+          "rank": 2,
+          "faceValue": "₹2000.0",
+          "type": "Offline",
+          "cashback": "15%",
+          "cashbackPercent": 15,
+          "effectivePrice": 1699,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "5"
+        },
+        {
+          "rank": 3,
+          "faceValue": "₹2000.0",
+          "type": "Offline",
+          "cashback": "13%",
+          "cashbackPercent": 13,
+          "effectivePrice": 1740,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "5"
+        },
+        {
+          "rank": 4,
+          "faceValue": "₹2000.0",
+          "type": "Offline",
+          "cashback": "12.5%",
+          "cashbackPercent": 12.5,
+          "effectivePrice": 1750,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "5"
+        },
+        {
+          "rank": 5,
+          "faceValue": "₹2000.0",
+          "type": "Offline",
+          "cashback": "12.5%",
+          "cashbackPercent": 12.5,
+          "effectivePrice": 1750,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "5"
+        },
+        {
+          "rank": 6,
+          "faceValue": "₹2000.0",
+          "type": "Offline",
+          "cashback": "11%",
+          "cashbackPercent": 11,
+          "effectivePrice": 1780,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "5"
+        }
+      ],
+      "pageTitle": "Peter England Gift Card & Vouchers",
+      "earnUptoCashback": "35.71%",
+      "earnUptoText": "Earn upto 35.71% Cashback"
     },
     {
       "slug": "shemaroome",
@@ -534,87 +564,12 @@
       "earnUptoText": "Earn upto 34% Cashback"
     },
     {
-      "slug": "himalaya",
-      "name": "Himalaya Store Gift Card",
-      "url": "https://www.zingoy.com/gift-cards/himalaya",
-      "listingPage": 1,
-      "listingCashback": "33.6%",
-      "listingRank": 9,
-      "productUrl": "https://www.zingoy.com/gift-cards/himalaya?price_min=100&price_max=5000&sort_by=discount",
-      "voucherCount": 6,
-      "vouchers": [
-        {
-          "rank": 1,
-          "faceValue": "₹250.0",
-          "type": "Offline",
-          "cashback": "33.6%",
-          "cashbackPercent": 33.6,
-          "effectivePrice": 166,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "5"
-        },
-        {
-          "rank": 2,
-          "faceValue": "₹250.0",
-          "type": "Offline",
-          "cashback": "32%",
-          "cashbackPercent": 32,
-          "effectivePrice": 170,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "0"
-        },
-        {
-          "rank": 3,
-          "faceValue": "₹250.0",
-          "type": "Offline",
-          "cashback": "30%",
-          "cashbackPercent": 30,
-          "effectivePrice": 175,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "0"
-        },
-        {
-          "rank": 4,
-          "faceValue": "₹250.0",
-          "type": "Online",
-          "cashback": "28%",
-          "cashbackPercent": 28,
-          "effectivePrice": 180,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "0"
-        },
-        {
-          "rank": 5,
-          "faceValue": "₹250.0",
-          "type": "Offline",
-          "cashback": "28%",
-          "cashbackPercent": 28,
-          "effectivePrice": 180,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "0"
-        },
-        {
-          "rank": 6,
-          "faceValue": "₹250.0",
-          "type": "Both",
-          "cashback": "28%",
-          "cashbackPercent": 28,
-          "effectivePrice": 180,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "0"
-        }
-      ],
-      "pageTitle": "Himalaya Store Gift Card & Vouchers",
-      "earnUptoCashback": "33.6%",
-      "earnUptoText": "Earn upto 33.6% Cashback"
-    },
-    {
       "slug": "titan",
       "name": "Titan Watches Gift Card",
       "url": "https://www.zingoy.com/gift-cards/titan",
       "listingPage": 1,
       "listingCashback": "33.33%",
-      "listingRank": 10,
+      "listingRank": 9,
       "productUrl": "https://www.zingoy.com/gift-cards/titan?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 5,
       "vouchers": [
@@ -625,7 +580,7 @@
           "cashback": "33.33%",
           "cashbackPercent": 33.33,
           "effectivePrice": 200,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
@@ -635,7 +590,7 @@
           "cashback": "10%",
           "cashbackPercent": 10,
           "effectivePrice": 900,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
@@ -645,7 +600,7 @@
           "cashback": "5%",
           "cashbackPercent": 5,
           "effectivePrice": 475,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -655,7 +610,7 @@
           "cashback": "2.41%",
           "cashbackPercent": 2.41,
           "effectivePrice": 4300,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
@@ -665,7 +620,7 @@
           "cashback": "0.2%",
           "cashbackPercent": 0.2,
           "effectivePrice": 499,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         }
       ],
@@ -679,7 +634,7 @@
       "url": "https://www.zingoy.com/gift-cards/urban-ladder",
       "listingPage": 1,
       "listingCashback": "33.33%",
-      "listingRank": 11,
+      "listingRank": 10,
       "productUrl": "https://www.zingoy.com/gift-cards/urban-ladder?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 2,
       "vouchers": [
@@ -690,7 +645,7 @@
           "cashback": "30%",
           "cashbackPercent": 30,
           "effectivePrice": 70,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -709,6 +664,81 @@
       "earnUptoText": "Earn upto 33.33% Cashback"
     },
     {
+      "slug": "himalaya",
+      "name": "Himalaya Store Gift Card",
+      "url": "https://www.zingoy.com/gift-cards/himalaya",
+      "listingPage": 1,
+      "listingCashback": "32%",
+      "listingRank": 11,
+      "productUrl": "https://www.zingoy.com/gift-cards/himalaya?price_min=100&price_max=5000&sort_by=discount",
+      "voucherCount": 6,
+      "vouchers": [
+        {
+          "rank": 1,
+          "faceValue": "₹250.0",
+          "type": "Offline",
+          "cashback": "32%",
+          "cashbackPercent": 32,
+          "effectivePrice": 170,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "0"
+        },
+        {
+          "rank": 2,
+          "faceValue": "₹250.0",
+          "type": "Offline",
+          "cashback": "30%",
+          "cashbackPercent": 30,
+          "effectivePrice": 175,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "0"
+        },
+        {
+          "rank": 3,
+          "faceValue": "₹250.0",
+          "type": "Online",
+          "cashback": "28%",
+          "cashbackPercent": 28,
+          "effectivePrice": 180,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "0"
+        },
+        {
+          "rank": 4,
+          "faceValue": "₹250.0",
+          "type": "Both",
+          "cashback": "28%",
+          "cashbackPercent": 28,
+          "effectivePrice": 180,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "0"
+        },
+        {
+          "rank": 5,
+          "faceValue": "₹250.0",
+          "type": "Offline",
+          "cashback": "28%",
+          "cashbackPercent": 28,
+          "effectivePrice": 180,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "5"
+        },
+        {
+          "rank": 6,
+          "faceValue": "₹250.0",
+          "type": "Online",
+          "cashback": "28%",
+          "cashbackPercent": 28,
+          "effectivePrice": 180,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "0"
+        }
+      ],
+      "pageTitle": "Himalaya Store Gift Card & Vouchers",
+      "earnUptoCashback": "32%",
+      "earnUptoText": "Earn upto 32% Cashback"
+    },
+    {
       "slug": "makemytrip-holiday",
       "name": "MakeMyTrip Holiday Gift Card",
       "url": "https://www.zingoy.com/gift-cards/makemytrip-holiday",
@@ -725,7 +755,7 @@
           "cashback": "30.21%",
           "cashbackPercent": 30.21,
           "effectivePrice": 975,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -735,7 +765,7 @@
           "cashback": "30%",
           "cashbackPercent": 30,
           "effectivePrice": 700,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -745,7 +775,7 @@
           "cashback": "30%",
           "cashbackPercent": 30,
           "effectivePrice": 1400,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -755,7 +785,7 @@
           "cashback": "26%",
           "cashbackPercent": 26,
           "effectivePrice": 3700,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -765,7 +795,7 @@
           "cashback": "25%",
           "cashbackPercent": 25,
           "effectivePrice": 750,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -775,7 +805,7 @@
           "cashback": "25%",
           "cashbackPercent": 25,
           "effectivePrice": 600,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         }
       ],
@@ -800,7 +830,7 @@
           "cashback": "30%",
           "cashbackPercent": 30,
           "effectivePrice": 350,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
@@ -810,7 +840,7 @@
           "cashback": "16.67%",
           "cashbackPercent": 16.67,
           "effectivePrice": 2500,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
@@ -820,7 +850,7 @@
           "cashback": "7.5%",
           "cashbackPercent": 7.5,
           "effectivePrice": 1245,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -830,7 +860,7 @@
           "cashback": "7.5%",
           "cashbackPercent": 7.5,
           "effectivePrice": 1850,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -840,7 +870,7 @@
           "cashback": "7%",
           "cashbackPercent": 7,
           "effectivePrice": 930,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -875,7 +905,7 @@
           "cashback": "30%",
           "cashbackPercent": 30,
           "effectivePrice": 350,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
@@ -885,7 +915,7 @@
           "cashback": "10%",
           "cashbackPercent": 10,
           "effectivePrice": 90,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         }
       ],
@@ -910,7 +940,7 @@
           "cashback": "30%",
           "cashbackPercent": 30,
           "effectivePrice": 175,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         }
       ],
@@ -935,7 +965,7 @@
           "cashback": "28.57%",
           "cashbackPercent": 28.57,
           "effectivePrice": 200,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -945,7 +975,7 @@
           "cashback": "10%",
           "cashbackPercent": 10,
           "effectivePrice": 900,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -955,7 +985,7 @@
           "cashback": "5%",
           "cashbackPercent": 5,
           "effectivePrice": 950,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         }
       ],
@@ -964,114 +994,124 @@
       "earnUptoText": "Earn upto 28.57% Cashback"
     },
     {
-      "slug": "barbeque-nation",
-      "name": "Barbeque Nation Gift Card",
-      "url": "https://www.zingoy.com/gift-cards/barbeque-nation",
+      "slug": "mcdonalds",
+      "name": "McDonalds Gift Card",
+      "url": "https://www.zingoy.com/gift-cards/mcdonalds",
       "listingPage": 2,
-      "listingCashback": "26%",
+      "listingCashback": "25%",
       "listingRank": 17,
-      "productUrl": "https://www.zingoy.com/gift-cards/barbeque-nation?price_min=100&price_max=5000&sort_by=discount",
+      "productUrl": "https://www.zingoy.com/gift-cards/mcdonalds?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 6,
       "vouchers": [
         {
           "rank": 1,
-          "faceValue": "₹500.0",
-          "type": "Both",
-          "cashback": "10.4%",
-          "cashbackPercent": 10.4,
-          "effectivePrice": 448,
-          "validity": "Aug 27, 2026",
+          "faceValue": "₹2000.0",
+          "type": "Offline",
+          "cashback": "25%",
+          "cashbackPercent": 25,
+          "effectivePrice": 1500,
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
           "rank": 2,
-          "faceValue": "₹5000.0",
-          "type": "Offline",
-          "cashback": "10%",
-          "cashbackPercent": 10,
-          "effectivePrice": 4497,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "5"
+          "faceValue": "₹250.0",
+          "type": "Online",
+          "cashback": "20%",
+          "cashbackPercent": 20,
+          "effectivePrice": 200,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "0"
         },
         {
           "rank": 3,
-          "faceValue": "₹2000.0",
-          "type": "Both",
-          "cashback": "10%",
-          "cashbackPercent": 10,
-          "effectivePrice": 1799,
-          "validity": "Aug 27, 2026",
+          "faceValue": "₹250.0",
+          "type": "Online",
+          "cashback": "20%",
+          "cashbackPercent": 20,
+          "effectivePrice": 200,
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
           "rank": 4,
-          "faceValue": "₹1500.0",
+          "faceValue": "₹250.0",
           "type": "Online",
-          "cashback": "10%",
-          "cashbackPercent": 10,
-          "effectivePrice": 1350,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "0"
-        },
-        {
-          "rank": 5,
-          "faceValue": "₹500.0",
-          "type": "Both",
-          "cashback": "8%",
-          "cashbackPercent": 8,
-          "effectivePrice": 460,
-          "validity": "Aug 27, 2026",
+          "cashback": "20%",
+          "cashbackPercent": 20,
+          "effectivePrice": 200,
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
+          "rank": 5,
+          "faceValue": "₹1000.0",
+          "type": "Online",
+          "cashback": "20%",
+          "cashbackPercent": 20,
+          "effectivePrice": 800,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "0"
+        },
+        {
           "rank": 6,
-          "faceValue": "₹940.0",
+          "faceValue": "₹250.0",
           "type": "Offline",
-          "cashback": "4.26%",
-          "cashbackPercent": 4.26,
-          "effectivePrice": 900,
-          "validity": "Aug 27, 2026",
+          "cashback": "20%",
+          "cashbackPercent": 20,
+          "effectivePrice": 200,
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         }
       ],
-      "pageTitle": "Barbeque Gift cards, E-Gift Cards & Vouchers",
-      "earnUptoCashback": "26%",
-      "earnUptoText": "Earn upto 26% Cashback"
+      "pageTitle": "McDonalds Gift cards, E-Gift Cards & Vouchers",
+      "earnUptoCashback": "25%",
+      "earnUptoText": "Earn upto 25% Cashback"
     },
     {
       "slug": "apollo-247",
       "name": "Apollo Pharmacy Gift Card",
       "url": "https://www.zingoy.com/gift-cards/apollo-247",
       "listingPage": 2,
-      "listingCashback": "22%",
+      "listingCashback": "24.8%",
       "listingRank": 18,
       "productUrl": "https://www.zingoy.com/gift-cards/apollo-247?price_min=100&price_max=5000&sort_by=discount",
-      "voucherCount": 2,
+      "voucherCount": 3,
       "vouchers": [
         {
           "rank": 1,
           "faceValue": "₹250.0",
           "type": "Offline",
-          "cashback": "22%",
-          "cashbackPercent": 22,
-          "effectivePrice": 195,
-          "validity": "Aug 27, 2026",
+          "cashback": "24.8%",
+          "cashbackPercent": 24.8,
+          "effectivePrice": 188,
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
           "rank": 2,
           "faceValue": "₹250.0",
           "type": "Offline",
-          "cashback": "10%",
-          "cashbackPercent": 10,
-          "effectivePrice": 225,
+          "cashback": "24%",
+          "cashbackPercent": 24,
+          "effectivePrice": 190,
           "validity": "Aug 26, 2026",
+          "sellerRating": "5"
+        },
+        {
+          "rank": 3,
+          "faceValue": "₹250.0",
+          "type": "Offline",
+          "cashback": "22%",
+          "cashbackPercent": 22,
+          "effectivePrice": 195,
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         }
       ],
       "pageTitle": "Apollo Pharmacy Gift Card & Vouchers",
-      "earnUptoCashback": "22%",
-      "earnUptoText": "Earn upto 22% Cashback"
+      "earnUptoCashback": "24.8%",
+      "earnUptoText": "Earn upto 24.8% Cashback"
     },
     {
       "slug": "levis",
@@ -1090,7 +1130,7 @@
           "cashback": "21.26%",
           "cashbackPercent": 21.26,
           "effectivePrice": 200,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -1100,7 +1140,7 @@
           "cashback": "7.57%",
           "cashbackPercent": 7.57,
           "effectivePrice": 830,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -1110,7 +1150,7 @@
           "cashback": "5.24%",
           "cashbackPercent": 5.24,
           "effectivePrice": 380,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         }
       ],
@@ -1119,77 +1159,77 @@
       "earnUptoText": "Earn upto 21.26% Cashback"
     },
     {
-      "slug": "mcdonalds",
-      "name": "McDonalds Gift Card",
-      "url": "https://www.zingoy.com/gift-cards/mcdonalds",
+      "slug": "cinepolisindia",
+      "name": "Cinepolisindia Gift Card",
+      "url": "https://www.zingoy.com/gift-cards/cinepolisindia",
       "listingPage": 2,
       "listingCashback": "20%",
       "listingRank": 20,
-      "productUrl": "https://www.zingoy.com/gift-cards/mcdonalds?price_min=100&price_max=5000&sort_by=discount",
+      "productUrl": "https://www.zingoy.com/gift-cards/cinepolisindia?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 6,
       "vouchers": [
         {
           "rank": 1,
-          "faceValue": "₹250.0",
+          "faceValue": "₹100.0",
           "type": "Online",
           "cashback": "20%",
           "cashbackPercent": 20,
-          "effectivePrice": 200,
-          "validity": "Aug 27, 2026",
+          "effectivePrice": 79,
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
           "rank": 2,
-          "faceValue": "₹1000.0",
+          "faceValue": "₹100.0",
           "type": "Online",
           "cashback": "20%",
           "cashbackPercent": 20,
-          "effectivePrice": 800,
-          "validity": "Aug 27, 2026",
+          "effectivePrice": 80,
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
           "rank": 3,
-          "faceValue": "₹1000.0",
+          "faceValue": "₹250.0",
           "type": "Online",
           "cashback": "20%",
           "cashbackPercent": 20,
-          "effectivePrice": 800,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "0"
+          "effectivePrice": 200,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "5"
         },
         {
           "rank": 4,
-          "faceValue": "₹250.0",
-          "type": "Offline",
-          "cashback": "20%",
-          "cashbackPercent": 20,
-          "effectivePrice": 200,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "0"
+          "faceValue": "₹600.0",
+          "type": "Online",
+          "cashback": "16.67%",
+          "cashbackPercent": 16.67,
+          "effectivePrice": 500,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "5"
         },
         {
           "rank": 5,
-          "faceValue": "₹250.0",
+          "faceValue": "₹500.0",
           "type": "Online",
-          "cashback": "20%",
-          "cashbackPercent": 20,
-          "effectivePrice": 200,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "0"
+          "cashback": "16%",
+          "cashbackPercent": 16,
+          "effectivePrice": 420,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "5"
         },
         {
           "rank": 6,
-          "faceValue": "₹250.0",
+          "faceValue": "₹580.0",
           "type": "Online",
-          "cashback": "20%",
-          "cashbackPercent": 20,
-          "effectivePrice": 200,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "5"
+          "cashback": "13.79%",
+          "cashbackPercent": 13.79,
+          "effectivePrice": 500,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "0"
         }
       ],
-      "pageTitle": "McDonalds Gift cards, E-Gift Cards & Vouchers",
+      "pageTitle": "Cinepolisindia Gift Card & Vouchers",
       "earnUptoCashback": "20%",
       "earnUptoText": "Earn upto 20% Cashback"
     },
@@ -1210,7 +1250,7 @@
           "cashback": "16%",
           "cashbackPercent": 16,
           "effectivePrice": 2100,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -1220,7 +1260,7 @@
           "cashback": "10%",
           "cashbackPercent": 10,
           "effectivePrice": 4500,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -1230,7 +1270,7 @@
           "cashback": "9.7%",
           "cashbackPercent": 9.7,
           "effectivePrice": 903,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -1249,87 +1289,12 @@
       "earnUptoText": "Earn upto 20% Cashback"
     },
     {
-      "slug": "cinepolisindia",
-      "name": "Cinepolisindia Gift Card",
-      "url": "https://www.zingoy.com/gift-cards/cinepolisindia",
-      "listingPage": 2,
-      "listingCashback": "20%",
-      "listingRank": 22,
-      "productUrl": "https://www.zingoy.com/gift-cards/cinepolisindia?price_min=100&price_max=5000&sort_by=discount",
-      "voucherCount": 6,
-      "vouchers": [
-        {
-          "rank": 1,
-          "faceValue": "₹100.0",
-          "type": "Online",
-          "cashback": "20%",
-          "cashbackPercent": 20,
-          "effectivePrice": 80,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "0"
-        },
-        {
-          "rank": 2,
-          "faceValue": "₹250.0",
-          "type": "Online",
-          "cashback": "20%",
-          "cashbackPercent": 20,
-          "effectivePrice": 200,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "5"
-        },
-        {
-          "rank": 3,
-          "faceValue": "₹600.0",
-          "type": "Online",
-          "cashback": "16.67%",
-          "cashbackPercent": 16.67,
-          "effectivePrice": 500,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "5"
-        },
-        {
-          "rank": 4,
-          "faceValue": "₹500.0",
-          "type": "Online",
-          "cashback": "16%",
-          "cashbackPercent": 16,
-          "effectivePrice": 420,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "5"
-        },
-        {
-          "rank": 5,
-          "faceValue": "₹100.0",
-          "type": "Online",
-          "cashback": "15%",
-          "cashbackPercent": 15,
-          "effectivePrice": 84,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "5"
-        },
-        {
-          "rank": 6,
-          "faceValue": "₹580.0",
-          "type": "Online",
-          "cashback": "13.79%",
-          "cashbackPercent": 13.79,
-          "effectivePrice": 500,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "0"
-        }
-      ],
-      "pageTitle": "Cinepolisindia Gift Card & Vouchers",
-      "earnUptoCashback": "20%",
-      "earnUptoText": "Earn upto 20% Cashback"
-    },
-    {
       "slug": "planet-fashion",
       "name": "Planet Fashion Gift Card",
       "url": "https://www.zingoy.com/gift-cards/planet-fashion",
       "listingPage": 2,
       "listingCashback": "20%",
-      "listingRank": 23,
+      "listingRank": 22,
       "productUrl": "https://www.zingoy.com/gift-cards/planet-fashion?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 2,
       "vouchers": [
@@ -1340,7 +1305,7 @@
           "cashback": "20%",
           "cashbackPercent": 20,
           "effectivePrice": 320,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -1350,7 +1315,7 @@
           "cashback": "10%",
           "cashbackPercent": 10,
           "effectivePrice": 90,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         }
       ],
@@ -1364,7 +1329,7 @@
       "url": "https://www.zingoy.com/gift-cards/luxe-armani-exchange",
       "listingPage": 2,
       "listingCashback": "20%",
-      "listingRank": 24,
+      "listingRank": 23,
       "productUrl": "https://www.zingoy.com/gift-cards/luxe-armani-exchange?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 3,
       "vouchers": [
@@ -1375,7 +1340,7 @@
           "cashback": "20%",
           "cashbackPercent": 20,
           "effectivePrice": 800,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -1385,7 +1350,7 @@
           "cashback": "10%",
           "cashbackPercent": 10,
           "effectivePrice": 4500,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -1395,7 +1360,7 @@
           "cashback": "10%",
           "cashbackPercent": 10,
           "effectivePrice": 4500,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         }
       ],
@@ -1407,9 +1372,9 @@
       "slug": "tanishq-studded-e-gift",
       "name": "Tanishq Studded Gift Card",
       "url": "https://www.zingoy.com/gift-cards/tanishq-studded-e-gift",
-      "listingPage": 3,
+      "listingPage": 2,
       "listingCashback": "20%",
-      "listingRank": 25,
+      "listingRank": 24,
       "productUrl": "https://www.zingoy.com/gift-cards/tanishq-studded-e-gift?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 1,
       "vouchers": [
@@ -1420,7 +1385,7 @@
           "cashback": "20%",
           "cashbackPercent": 20,
           "effectivePrice": 400,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         }
       ],
@@ -1434,7 +1399,7 @@
       "url": "https://www.zingoy.com/gift-cards/jack-jones",
       "listingPage": 3,
       "listingCashback": "20%",
-      "listingRank": 26,
+      "listingRank": 25,
       "productUrl": "https://www.zingoy.com/gift-cards/jack-jones?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 3,
       "vouchers": [
@@ -1445,7 +1410,7 @@
           "cashback": "20%",
           "cashbackPercent": 20,
           "effectivePrice": 800,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -1455,7 +1420,7 @@
           "cashback": "10%",
           "cashbackPercent": 10,
           "effectivePrice": 4500,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -1465,7 +1430,7 @@
           "cashback": "10%",
           "cashbackPercent": 10,
           "effectivePrice": 900,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         }
       ],
@@ -1479,7 +1444,7 @@
       "url": "https://www.zingoy.com/gift-cards/nuawomen",
       "listingPage": 3,
       "listingCashback": "20%",
-      "listingRank": 27,
+      "listingRank": 26,
       "productUrl": "https://www.zingoy.com/gift-cards/nuawomen?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 0,
       "vouchers": [],
@@ -1493,7 +1458,7 @@
       "url": "https://www.zingoy.com/gift-cards/bikanervala",
       "listingPage": 3,
       "listingCashback": "19.68%",
-      "listingRank": 28,
+      "listingRank": 27,
       "productUrl": "https://www.zingoy.com/gift-cards/bikanervala?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 4,
       "vouchers": [
@@ -1504,7 +1469,7 @@
           "cashback": "19.68%",
           "cashbackPercent": 19.68,
           "effectivePrice": 400,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -1514,7 +1479,7 @@
           "cashback": "15.2%",
           "cashbackPercent": 15.2,
           "effectivePrice": 424,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -1534,7 +1499,7 @@
           "cashback": "1%",
           "cashbackPercent": 1,
           "effectivePrice": 495,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         }
       ],
@@ -1548,7 +1513,7 @@
       "url": "https://www.zingoy.com/gift-cards/just-lil-things",
       "listingPage": 3,
       "listingCashback": "18%",
-      "listingRank": 29,
+      "listingRank": 28,
       "productUrl": "https://www.zingoy.com/gift-cards/just-lil-things?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 0,
       "vouchers": [],
@@ -1562,7 +1527,7 @@
       "url": "https://www.zingoy.com/gift-cards/peesafe",
       "listingPage": 3,
       "listingCashback": "18%",
-      "listingRank": 30,
+      "listingRank": 29,
       "productUrl": "https://www.zingoy.com/gift-cards/peesafe?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 0,
       "vouchers": [],
@@ -1576,7 +1541,7 @@
       "url": "https://www.zingoy.com/gift-cards/tattva-spa",
       "listingPage": 3,
       "listingCashback": "17%",
-      "listingRank": 31,
+      "listingRank": 30,
       "productUrl": "https://www.zingoy.com/gift-cards/tattva-spa?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 0,
       "vouchers": [],
@@ -1590,7 +1555,7 @@
       "url": "https://www.zingoy.com/gift-cards/van-heusen",
       "listingPage": 3,
       "listingCashback": "16.67%",
-      "listingRank": 32,
+      "listingRank": 31,
       "productUrl": "https://www.zingoy.com/gift-cards/van-heusen?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 4,
       "vouchers": [
@@ -1601,7 +1566,7 @@
           "cashback": "16.67%",
           "cashbackPercent": 16.67,
           "effectivePrice": 2500,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
@@ -1611,7 +1576,7 @@
           "cashback": "10%",
           "cashbackPercent": 10,
           "effectivePrice": 1800,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
@@ -1621,7 +1586,7 @@
           "cashback": "5.64%",
           "cashbackPercent": 5.64,
           "effectivePrice": 4500,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -1631,7 +1596,7 @@
           "cashback": "5%",
           "cashbackPercent": 5,
           "effectivePrice": 1900,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         }
       ],
@@ -1640,67 +1605,12 @@
       "earnUptoText": "Earn upto 16.67% Cashback"
     },
     {
-      "slug": "vmart",
-      "name": "Vmart Gift Card",
-      "url": "https://www.zingoy.com/gift-cards/vmart",
-      "listingPage": 3,
-      "listingCashback": "16.23%",
-      "listingRank": 33,
-      "productUrl": "https://www.zingoy.com/gift-cards/vmart?price_min=100&price_max=5000&sort_by=discount",
-      "voucherCount": 4,
-      "vouchers": [
-        {
-          "rank": 1,
-          "faceValue": "₹3000.0",
-          "type": "Online",
-          "cashback": "16.23%",
-          "cashbackPercent": 16.23,
-          "effectivePrice": 2513,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "5"
-        },
-        {
-          "rank": 2,
-          "faceValue": "₹100.0",
-          "type": "Offline",
-          "cashback": "10%",
-          "cashbackPercent": 10,
-          "effectivePrice": 90,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "0"
-        },
-        {
-          "rank": 3,
-          "faceValue": "₹100.0",
-          "type": "Online",
-          "cashback": "8%",
-          "cashbackPercent": 8,
-          "effectivePrice": 92,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "5"
-        },
-        {
-          "rank": 4,
-          "faceValue": "₹1000.0",
-          "type": "Offline",
-          "cashback": "5%",
-          "cashbackPercent": 5,
-          "effectivePrice": 950,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "0"
-        }
-      ],
-      "pageTitle": "Vmart Gift Card & Vouchers",
-      "earnUptoCashback": "16.23%",
-      "earnUptoText": "Earn upto 16.23% Cashback"
-    },
-    {
       "slug": "croma-retail",
       "name": "Croma Retail Gift Card",
       "url": "https://www.zingoy.com/gift-cards/croma-retail",
       "listingPage": 3,
       "listingCashback": "16%",
-      "listingRank": 34,
+      "listingRank": 32,
       "productUrl": "https://www.zingoy.com/gift-cards/croma-retail?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 6,
       "vouchers": [
@@ -1711,7 +1621,7 @@
           "cashback": "8%",
           "cashbackPercent": 8,
           "effectivePrice": 460,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -1721,7 +1631,7 @@
           "cashback": "6%",
           "cashbackPercent": 6,
           "effectivePrice": 470,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
@@ -1731,7 +1641,7 @@
           "cashback": "6%",
           "cashbackPercent": 6,
           "effectivePrice": 470,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
@@ -1741,7 +1651,7 @@
           "cashback": "5.91%",
           "cashbackPercent": 5.91,
           "effectivePrice": 350,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -1751,7 +1661,7 @@
           "cashback": "5.5%",
           "cashbackPercent": 5.5,
           "effectivePrice": 472,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
@@ -1761,7 +1671,7 @@
           "cashback": "5.2%",
           "cashbackPercent": 5.2,
           "effectivePrice": 474,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         }
       ],
@@ -1775,7 +1685,7 @@
       "url": "https://www.zingoy.com/gift-cards/baskin-robbins",
       "listingPage": 3,
       "listingCashback": "16%",
-      "listingRank": 35,
+      "listingRank": 33,
       "productUrl": "https://www.zingoy.com/gift-cards/baskin-robbins?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 2,
       "vouchers": [
@@ -1786,7 +1696,7 @@
           "cashback": "8%",
           "cashbackPercent": 8,
           "effectivePrice": 230,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -1796,7 +1706,7 @@
           "cashback": "8%",
           "cashbackPercent": 8,
           "effectivePrice": 230,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         }
       ],
@@ -1810,7 +1720,7 @@
       "url": "https://www.zingoy.com/gift-cards/fabindia",
       "listingPage": 3,
       "listingCashback": "16%",
-      "listingRank": 36,
+      "listingRank": 34,
       "productUrl": "https://www.zingoy.com/gift-cards/fabindia?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 4,
       "vouchers": [
@@ -1821,7 +1731,7 @@
           "cashback": "16%",
           "cashbackPercent": 16,
           "effectivePrice": 2100,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
@@ -1831,7 +1741,7 @@
           "cashback": "8%",
           "cashbackPercent": 8,
           "effectivePrice": 4600,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
@@ -1841,7 +1751,7 @@
           "cashback": "6%",
           "cashbackPercent": 6,
           "effectivePrice": 2350,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
@@ -1851,7 +1761,7 @@
           "cashback": "5%",
           "cashbackPercent": 5,
           "effectivePrice": 4750,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         }
       ],
@@ -1860,13 +1770,13 @@
       "earnUptoText": "Earn upto 16% Cashback"
     },
     {
-      "slug": "peter-england",
-      "name": "Peter England Gift Card",
-      "url": "https://www.zingoy.com/gift-cards/peter-england",
-      "listingPage": 4,
+      "slug": "kalyan-gold-coin",
+      "name": "Kalyan Gold Jewellers Gift Card",
+      "url": "https://www.zingoy.com/gift-cards/kalyan-gold-coin",
+      "listingPage": 3,
       "listingCashback": "15%",
-      "listingRank": 37,
-      "productUrl": "https://www.zingoy.com/gift-cards/peter-england?price_min=100&price_max=5000&sort_by=discount",
+      "listingRank": 35,
+      "productUrl": "https://www.zingoy.com/gift-cards/kalyan-gold-coin?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 6,
       "vouchers": [
         {
@@ -1875,62 +1785,162 @@
           "type": "Offline",
           "cashback": "15%",
           "cashbackPercent": 15,
-          "effectivePrice": 1699,
-          "validity": "Aug 27, 2026",
+          "effectivePrice": 1700,
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
           "rank": 2,
           "faceValue": "₹2000.0",
-          "type": "Offline",
-          "cashback": "13%",
-          "cashbackPercent": 13,
-          "effectivePrice": 1740,
-          "validity": "Aug 27, 2026",
+          "type": "Online",
+          "cashback": "10%",
+          "cashbackPercent": 10,
+          "effectivePrice": 1800,
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
           "rank": 3,
           "faceValue": "₹2000.0",
           "type": "Offline",
-          "cashback": "12.5%",
-          "cashbackPercent": 12.5,
-          "effectivePrice": 1750,
-          "validity": "Aug 27, 2026",
+          "cashback": "10%",
+          "cashbackPercent": 10,
+          "effectivePrice": 1800,
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
           "rank": 4,
           "faceValue": "₹2000.0",
           "type": "Offline",
-          "cashback": "12.5%",
-          "cashbackPercent": 12.5,
-          "effectivePrice": 1750,
-          "validity": "Aug 27, 2026",
+          "cashback": "10%",
+          "cashbackPercent": 10,
+          "effectivePrice": 1800,
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
           "rank": 5,
-          "faceValue": "₹5000.0",
-          "type": "Offline",
-          "cashback": "11%",
-          "cashbackPercent": 11,
-          "effectivePrice": 4450,
-          "validity": "Aug 27, 2026",
-          "sellerRating": "5"
+          "faceValue": "₹2000.0",
+          "type": "Online",
+          "cashback": "5%",
+          "cashbackPercent": 5,
+          "effectivePrice": 1900,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "0"
         },
         {
           "rank": 6,
           "faceValue": "₹2000.0",
+          "type": "Online",
+          "cashback": "5%",
+          "cashbackPercent": 5,
+          "effectivePrice": 1900,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "0"
+        }
+      ],
+      "pageTitle": "Kalyan Gold Jewellers Gift Card & Vouchers",
+      "earnUptoCashback": "15%",
+      "earnUptoText": "Earn upto 15% Cashback"
+    },
+    {
+      "slug": "barbeque-nation",
+      "name": "Barbeque Nation Gift Card",
+      "url": "https://www.zingoy.com/gift-cards/barbeque-nation",
+      "listingPage": 3,
+      "listingCashback": "15%",
+      "listingRank": 36,
+      "productUrl": "https://www.zingoy.com/gift-cards/barbeque-nation?price_min=100&price_max=5000&sort_by=discount",
+      "voucherCount": 6,
+      "vouchers": [
+        {
+          "rank": 1,
+          "faceValue": "₹500.0",
+          "type": "Both",
+          "cashback": "10.4%",
+          "cashbackPercent": 10.4,
+          "effectivePrice": 448,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "5"
+        },
+        {
+          "rank": 2,
+          "faceValue": "₹5000.0",
           "type": "Offline",
-          "cashback": "11%",
-          "cashbackPercent": 11,
-          "effectivePrice": 1780,
-          "validity": "Aug 27, 2026",
+          "cashback": "10%",
+          "cashbackPercent": 10,
+          "effectivePrice": 4497,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "5"
+        },
+        {
+          "rank": 3,
+          "faceValue": "₹2000.0",
+          "type": "Both",
+          "cashback": "10%",
+          "cashbackPercent": 10,
+          "effectivePrice": 1799,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "5"
+        },
+        {
+          "rank": 4,
+          "faceValue": "₹1500.0",
+          "type": "Online",
+          "cashback": "10%",
+          "cashbackPercent": 10,
+          "effectivePrice": 1350,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "0"
+        },
+        {
+          "rank": 5,
+          "faceValue": "₹500.0",
+          "type": "Both",
+          "cashback": "8%",
+          "cashbackPercent": 8,
+          "effectivePrice": 460,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "5"
+        },
+        {
+          "rank": 6,
+          "faceValue": "₹940.0",
+          "type": "Offline",
+          "cashback": "4.26%",
+          "cashbackPercent": 4.26,
+          "effectivePrice": 900,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "0"
+        }
+      ],
+      "pageTitle": "Barbeque Gift cards, E-Gift Cards & Vouchers",
+      "earnUptoCashback": "15%",
+      "earnUptoText": "Earn upto 15% Cashback"
+    },
+    {
+      "slug": "archies-online",
+      "name": "Archies Gift Card",
+      "url": "https://www.zingoy.com/gift-cards/archies-online",
+      "listingPage": 4,
+      "listingCashback": "15%",
+      "listingRank": 37,
+      "productUrl": "https://www.zingoy.com/gift-cards/archies-online?price_min=100&price_max=5000&sort_by=discount",
+      "voucherCount": 1,
+      "vouchers": [
+        {
+          "rank": 1,
+          "faceValue": "₹1000.0",
+          "type": "Online",
+          "cashback": "15%",
+          "cashbackPercent": 15,
+          "effectivePrice": 850,
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         }
       ],
-      "pageTitle": "Peter England Gift Card & Vouchers",
+      "pageTitle": "Archies Gift Cards & eGift Vouchers",
       "earnUptoCashback": "15%",
       "earnUptoText": "Earn upto 15% Cashback"
     },
@@ -2021,7 +2031,7 @@
           "cashback": "14.7%",
           "cashbackPercent": 14.7,
           "effectivePrice": 2100,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -2031,7 +2041,7 @@
           "cashback": "13.79%",
           "cashbackPercent": 13.79,
           "effectivePrice": 1750,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -2041,7 +2051,7 @@
           "cashback": "12%",
           "cashbackPercent": 12,
           "effectivePrice": 2200,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -2051,7 +2061,7 @@
           "cashback": "12%",
           "cashbackPercent": 12,
           "effectivePrice": 2200,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -2061,7 +2071,7 @@
           "cashback": "11.11%",
           "cashbackPercent": 11.11,
           "effectivePrice": 2000,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -2071,7 +2081,7 @@
           "cashback": "10%",
           "cashbackPercent": 10,
           "effectivePrice": 900,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         }
       ],
@@ -2080,12 +2090,57 @@
       "earnUptoText": "Earn upto 14.7% Cashback"
     },
     {
+      "slug": "jockey",
+      "name": "Jockey Gift Card",
+      "url": "https://www.zingoy.com/gift-cards/jockey",
+      "listingPage": 4,
+      "listingCashback": "14.3%",
+      "listingRank": 44,
+      "productUrl": "https://www.zingoy.com/gift-cards/jockey?price_min=100&price_max=5000&sort_by=discount",
+      "voucherCount": 3,
+      "vouchers": [
+        {
+          "rank": 1,
+          "faceValue": "₹1399.0",
+          "type": "Online",
+          "cashback": "14.3%",
+          "cashbackPercent": 14.3,
+          "effectivePrice": 1199,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "5"
+        },
+        {
+          "rank": 2,
+          "faceValue": "₹449.0",
+          "type": "Online",
+          "cashback": "7.57%",
+          "cashbackPercent": 7.57,
+          "effectivePrice": 415,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "0"
+        },
+        {
+          "rank": 3,
+          "faceValue": "₹300.0",
+          "type": "Online",
+          "cashback": "6.67%",
+          "cashbackPercent": 6.67,
+          "effectivePrice": 280,
+          "validity": "Aug 28, 2026",
+          "sellerRating": "0"
+        }
+      ],
+      "pageTitle": "Jockey Gift cards, E-Gift Cards & Vouchers",
+      "earnUptoCashback": "14.3%",
+      "earnUptoText": "Earn upto 14.3% Cashback"
+    },
+    {
       "slug": "hidesign",
       "name": "Hidesign Gift Card",
       "url": "https://www.zingoy.com/gift-cards/hidesign",
       "listingPage": 4,
       "listingCashback": "14%",
-      "listingRank": 44,
+      "listingRank": 45,
       "productUrl": "https://www.zingoy.com/gift-cards/hidesign?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 1,
       "vouchers": [
@@ -2096,7 +2151,7 @@
           "cashback": "10%",
           "cashbackPercent": 10,
           "effectivePrice": 90,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         }
       ],
@@ -2110,7 +2165,7 @@
       "url": "https://www.zingoy.com/gift-cards/superdry-luxe",
       "listingPage": 4,
       "listingCashback": "14%",
-      "listingRank": 45,
+      "listingRank": 46,
       "productUrl": "https://www.zingoy.com/gift-cards/superdry-luxe?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 2,
       "vouchers": [
@@ -2121,7 +2176,7 @@
           "cashback": "14%",
           "cashbackPercent": 14,
           "effectivePrice": 4300,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -2131,7 +2186,7 @@
           "cashback": "10%",
           "cashbackPercent": 10,
           "effectivePrice": 900,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         }
       ],
@@ -2145,7 +2200,7 @@
       "url": "https://www.zingoy.com/gift-cards/tatacliq",
       "listingPage": 4,
       "listingCashback": "13%",
-      "listingRank": 46,
+      "listingRank": 47,
       "productUrl": "https://www.zingoy.com/gift-cards/tatacliq?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 4,
       "vouchers": [
@@ -2156,7 +2211,7 @@
           "cashback": "13%",
           "cashbackPercent": 13,
           "effectivePrice": 4350,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
@@ -2166,7 +2221,7 @@
           "cashback": "10%",
           "cashbackPercent": 10,
           "effectivePrice": 450,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "5"
         },
         {
@@ -2176,7 +2231,7 @@
           "cashback": "5.33%",
           "cashbackPercent": 5.33,
           "effectivePrice": 1420,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         },
         {
@@ -2186,7 +2241,7 @@
           "cashback": "5%",
           "cashbackPercent": 5,
           "effectivePrice": 475,
-          "validity": "Aug 27, 2026",
+          "validity": "Aug 28, 2026",
           "sellerRating": "0"
         }
       ],
@@ -2200,38 +2255,13 @@
       "url": "https://www.zingoy.com/gift-cards/gaana",
       "listingPage": 4,
       "listingCashback": "13%",
-      "listingRank": 47,
+      "listingRank": 48,
       "productUrl": "https://www.zingoy.com/gift-cards/gaana?price_min=100&price_max=5000&sort_by=discount",
       "voucherCount": 0,
       "vouchers": [],
       "pageTitle": "Gaana Gift Card & Vouchers",
       "earnUptoCashback": "13%",
       "earnUptoText": "Earn upto 13% Cashback"
-    },
-    {
-      "slug": "prestige",
-      "name": "Prestige Gift Card",
-      "url": "https://www.zingoy.com/gift-cards/prestige",
-      "listingPage": 4,
-      "listingCashback": "12.5%",
-      "listingRank": 48,
-      "productUrl": "https://www.zingoy.com/gift-cards/prestige?price_min=100&price_max=5000&sort_by=discount",
-      "voucherCount": 1,
-      "vouchers": [
-        {
-          "rank": 1,
-          "faceValue": "₹400.0",
-          "type": "Online",
-          "cashback": "12.5%",
-          "cashbackPercent": 12.5,
-          "effectivePrice": 350,
-          "validity": "Aug 19, 2026",
-          "sellerRating": "0"
-        }
-      ],
-      "pageTitle": "Prestige Gift Card & Vouchers",
-      "earnUptoCashback": "12.5%",
-      "earnUptoText": "Earn upto 12.5% Cashback"
     }
   ]
 }
