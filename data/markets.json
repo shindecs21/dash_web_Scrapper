@@ -1,6 +1,6 @@
 {
   "source": "yahoo-finance",
-  "scrapedAt": "2026-08-23T02:40:54.742Z",
+  "scrapedAt": "2026-08-24T02:41:39.350Z",
   "marketState": "regular",
   "indices": [
     {
@@ -34,9 +34,9 @@
       "id": "usdInr",
       "label": "USD/INR",
       "symbol": "INR=X",
-      "price": 95.71,
-      "change": 0.015000000000000568,
-      "changePercent": 0.01567480014629873,
+      "price": 95.68,
+      "change": -0.009999999999990905,
+      "changePercent": -0.010450412791295752,
       "currency": "INR"
     }
   ],
