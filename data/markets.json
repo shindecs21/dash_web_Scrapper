@@ -1,6 +1,6 @@
 {
   "source": "yahoo-finance",
-  "scrapedAt": "2026-08-28T13:04:00.342Z",
+  "scrapedAt": "2026-08-29T07:59:28.493Z",
   "marketState": "regular",
   "indices": [
     {
@@ -8,8 +8,8 @@
       "label": "Nifty 50",
       "symbol": "^NSEI",
       "price": 24175.65,
-      "change": -32.14999999999782,
-      "changePercent": -0.13280843364534498,
+      "change": 84.85000000000218,
+      "changePercent": 0.352209142079143,
       "currency": "INR"
     },
     {
@@ -17,8 +17,8 @@
       "label": "Sensex",
       "symbol": "^BSESN",
       "price": 77264.51,
-      "change": -208.38999999999942,
-      "changePercent": -0.2689843803446101,
+      "change": 330.90999999998894,
+      "changePercent": 0.43012415901503237,
       "currency": "INR"
     },
     {
@@ -26,17 +26,17 @@
       "label": "Bank Nifty",
       "symbol": "^NSEBANK",
       "price": 57496.3,
-      "change": -287.5,
-      "changePercent": -0.49754429442161985,
+      "change": -13.599999999998545,
+      "changePercent": -0.023648102326727302,
       "currency": "INR"
     },
     {
       "id": "usdInr",
       "label": "USD/INR",
       "symbol": "INR=X",
-      "price": 95.368,
-      "change": -0.16200000000000614,
-      "changePercent": -0.16958023657490437,
+      "price": 95.38,
+      "change": -0.15000000000000568,
+      "changePercent": -0.1570187375693559,
       "currency": "INR"
     }
   ],
