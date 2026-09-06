@@ -1,6 +1,6 @@
 {
   "source": "yahoo-finance",
-  "scrapedAt": "2026-09-05T05:58:15.431Z",
+  "scrapedAt": "2026-09-06T06:10:06.811Z",
   "marketState": "regular",
   "indices": [
     {
@@ -8,8 +8,8 @@
       "label": "Nifty 50",
       "symbol": "^NSEI",
       "price": 23897.7,
-      "change": 24.25,
-      "changePercent": 0.10157727517388564,
+      "change": 24.299999999999272,
+      "changePercent": 0.1017869260348307,
       "currency": "INR"
     },
     {
@@ -17,8 +17,8 @@
       "label": "Sensex",
       "symbol": "^BSESN",
       "price": 76515.43,
-      "change": 362.56999999999243,
-      "changePercent": 0.47610818556255463,
+      "change": 362.52999999999884,
+      "changePercent": 0.47605540957730946,
       "currency": "INR"
     },
     {
