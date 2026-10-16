@@ -1,42 +1,42 @@
 {
   "source": "yahoo-finance",
-  "scrapedAt": "2026-10-15T06:03:53.590Z",
+  "scrapedAt": "2026-10-16T06:01:18.845Z",
   "marketState": "regular",
   "indices": [
     {
       "id": "nifty",
       "label": "Nifty 50",
       "symbol": "^NSEI",
-      "price": 22940.3,
-      "change": 317.59999999999854,
-      "changePercent": 1.4038996229450884,
+      "price": 23130.45,
+      "change": 133.10000000000218,
+      "changePercent": 0.5787623356604226,
       "currency": "INR"
     },
     {
       "id": "sensex",
       "label": "Sensex",
       "symbol": "^BSESN",
-      "price": 73762.29,
-      "change": 980.3999999999942,
-      "changePercent": 1.3470383910063262,
+      "price": 74585.86,
+      "change": 270.25,
+      "changePercent": 0.3636517280824311,
       "currency": "INR"
     },
     {
       "id": "bankNifty",
       "label": "Bank Nifty",
       "symbol": "^NSEBANK",
-      "price": 55778.15,
-      "change": 462.15000000000146,
-      "changePercent": 0.8354725576686699,
+      "price": 55777,
+      "change": -33.5,
+      "changePercent": -0.06002454735220075,
       "currency": "INR"
     },
     {
       "id": "usdInr",
       "label": "USD/INR",
       "symbol": "INR=X",
-      "price": 95.073,
-      "change": -0.06700000000000728,
-      "changePercent": -0.07042253521127526,
+      "price": 94.95,
+      "change": -0.09499999999999886,
+      "changePercent": -0.09995265400599596,
       "currency": "INR"
     }
   ],
@@ -45,45 +45,45 @@
       "id": "RELIANCE.NS",
       "label": "Reliance",
       "symbol": "RELIANCE.NS",
-      "price": 1207.2,
-      "change": 32.600000000000136,
-      "changePercent": 2.775412906521381,
+      "price": 1209.1,
+      "change": -5.900000000000091,
+      "changePercent": -0.48559670781893755,
       "currency": "INR"
     },
     {
       "id": "TCS.NS",
       "label": "TCS",
       "symbol": "TCS.NS",
-      "price": 2364.5,
-      "change": 59.59999999999991,
-      "changePercent": 2.58579547919649,
+      "price": 2429.8,
+      "change": 79.80000000000018,
+      "changePercent": 3.395744680851072,
       "currency": "INR"
     },
     {
       "id": "INFY.NS",
       "label": "Infosys",
       "symbol": "INFY.NS",
-      "price": 1112.9,
-      "change": 24.90000000000009,
-      "changePercent": 2.288602941176479,
+      "price": 1152.8,
+      "change": 42.799999999999955,
+      "changePercent": 3.855855855855852,
       "currency": "INR"
     },
     {
       "id": "HDFCBANK.NS",
       "label": "HDFC Bank",
       "symbol": "HDFCBANK.NS",
-      "price": 722.2,
-      "change": 11.5,
-      "changePercent": 1.6181229773462782,
+      "price": 730.95,
+      "change": 4.100000000000023,
+      "changePercent": 0.5640778702620929,
       "currency": "INR"
     },
     {
       "id": "ICICIBANK.NS",
       "label": "ICICI Bank",
       "symbol": "ICICIBANK.NS",
-      "price": 1364.5,
-      "change": 25.90000000000009,
-      "changePercent": 1.9348573136112424,
+      "price": 1391.8,
+      "change": 2.3999999999998636,
+      "changePercent": 0.17273643299264888,
       "currency": "INR"
     }
   ]
