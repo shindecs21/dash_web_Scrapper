@@ -1,6 +1,6 @@
 {
   "source": "yahoo-finance",
-  "scrapedAt": "2026-10-24T06:05:50.206Z",
+  "scrapedAt": "2026-10-25T06:25:53.226Z",
   "marketState": "regular",
   "indices": [
     {
@@ -8,8 +8,8 @@
       "label": "Nifty 50",
       "symbol": "^NSEI",
       "price": 22600,
-      "change": -87.65000000000146,
-      "changePercent": -0.386333533882978,
+      "change": -87.70000000000073,
+      "changePercent": -0.3865530661988687,
       "currency": "INR"
     },
     {
