@@ -1,6 +1,6 @@
 {
   "source": "yahoo-finance",
-  "scrapedAt": "2026-11-21T08:28:10.754Z",
+  "scrapedAt": "2026-11-22T08:21:05.895Z",
   "marketState": "regular",
   "indices": [
     {
@@ -8,8 +8,8 @@
       "label": "Nifty 50",
       "symbol": "^NSEI",
       "price": 25800.6,
-      "change": 286.2999999999993,
-      "changePercent": 1.1221158330818377,
+      "change": 572.6999999999971,
+      "changePercent": 2.2701057162902862,
       "currency": "INR"
     },
     {
@@ -26,8 +26,8 @@
       "label": "Bank Nifty",
       "symbol": "^NSEBANK",
       "price": 64635.2,
-      "change": 1572.199999999997,
-      "changePercent": 2.4930624930624883,
+      "change": 2596.5999999999985,
+      "changePercent": 4.18545873053228,
       "currency": "INR"
     },
     {
